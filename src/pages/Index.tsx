@@ -269,9 +269,7 @@ export default function Index() {
               </span>
             </h1>
             <p className="mb-8 max-w-xl animate-in fade-in slide-in-from-bottom-4 text-lg leading-relaxed text-foreground/90 duration-1000 delay-200 md:text-xl">
-              <span className="text-pretty">
-                Программа расчёта четырёхпольных таблиц и профессиональная статистическая обработка данных для медицины, сельского хозяйства и научных работ.
-              </span>
+              <span className="text-pretty">Программа расчёта четырёхпольных таблиц и профессиональная статистическая обработка данных для медицины, сельского хозяйства, научных работ и диссертаций.</span>
             </p>
             <div className="flex animate-in fade-in slide-in-from-bottom-4 flex-col gap-4 duration-1000 delay-300 sm:flex-row sm:items-center">
               <MagneticButton
