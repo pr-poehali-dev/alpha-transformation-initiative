@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что мы считаем</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Четырёхпольные таблицы",
+              description: "Расчёт χ², критерия Фишера, относительного риска (RR), отношения шансов (OR) и доверительных интервалов для медицинских и биологических исследований",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Медицина и клинические исследования",
+              description: "Статистический анализ данных клинических испытаний, эпидемиологических исследований, диссертаций и статей ВАК",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Сельское хозяйство",
+              description: "Обработка результатов полевых опытов: дисперсионный анализ, t-критерий Стьюдента, корреляция и регрессия урожайности",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Научные статьи и диссертации",
+              description: "Полное статистическое сопровождение: подбор методов, расчёты, оформление таблиц и описание результатов по ГОСТ",
               direction: "bottom",
             },
           ].map((service, i) => (
